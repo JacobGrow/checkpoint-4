@@ -1,0 +1,79 @@
+#todo-error{
+  color: red;
+  font-size: 2em;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+*{
+  /* border: dotted;
+  border-color: red;
+  border-width: 1px; */
+  color: white;
+  /* text-shadow: 2px 2px black; */
+}
+
+.bottom-position{
+  position: absolute;
+  bottom: 5px;
+}
+
+.display-card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: black;
+  opacity: .8;
+  padding: 5px;
+  margin-right: 50px;
+  margin-left: 50px;
+  border-radius: 5px;
+}
+
+.display-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.todo-card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: black;
+  padding: 0;
+  margin-right: 50px;
+  margin-left: 50px;
+  border-radius: 5px;
+}
+
+ul{
+  list-style-type: none;
+}
+.hidden{
+  display: none;
+}
+
+.quote:hover .hidden{
+  display: block;
+}
+
+.tall-row{
+  min-height: 500px;
+}
+.bottom-row{
+  min-height: 100px;
+}
+
+.large-text{
+  font-size: 50px;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
